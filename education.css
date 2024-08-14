@@ -1,0 +1,160 @@
+body{
+    background-image: url(./Mobile1080.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}  
+
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   
+}
+
+.wrapper{
+  display: grid;
+  grid-template-rows:  70px 70px 70px 70px 70px 70px 70px 70px;
+  grid-template-columns: 263px;
+  width: 263px;
+  height: 550px;
+  position: absolute;
+  bottom: 0;
+  
+  justify-content: center;
+  align-items: center;
+  
+
+    
+}
+
+.education{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-family: Radio Canada Big;
+  font-weight: bold;
+  font-size: 200%;
+  color: white;
+  
+  padding-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.educationinfo{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  font-family: Radio Canada Big;
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+
+  margin: 0 10px 30px 10px;
+  
+
+}
+
+.Home{
+  grid-row: 5/6;
+  grid-column: 1/2;
+
+  height: 100%;
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+    font-size: x-large;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    align-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+
+
+@media (min-width: 1024px) {
+    
+  
+  .wrapper{
+      display: grid;
+      grid-template-rows:  70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+      grid-template-columns: 225px 225px 225px 225px;
+      width: 900px;
+      height: 700px;
+      
+    }
+
+    .education{
+      grid-row-start: 1;
+      grid-row-end: 3 ;
+      grid-column-start:1 ;
+      grid-column-end:2 ;
+  
+      font-family: Radio Canada Big;
+      font-weight: bolder;
+      font-size: 475%;
+      padding-left:35px ;
+      padding-top: 45px;
+      color: white;
+      
+  }
+
+    .educationinfo{
+      
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end:4 ;
+        font-family: Radio Canada Big;
+        font-weight: bold;
+        font-size: 250%;
+        color: white;
+        
+      
+        margin: auto;
+        padding-right: 10px;        
+        
+        
+       
+    }
+
+    .Home{
+      grid-row: 8/9;
+      grid-column: 1/5;
+    
+        height: 70px;
+        width: 750px;
+        border-radius: 50px;
+        color: white;
+        font-size: x-large;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border:5px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        align-content: space-evenly;
+
+        font-family: Radio Canada Big;
+        
+        
+        
+
+      }
+        
+    }
+
+    
+    
+
+  
+
+  
